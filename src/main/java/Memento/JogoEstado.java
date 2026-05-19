@@ -1,4 +1,6 @@
 package Memento;
 
-public class JogoEstado {
+public interface JogoEstado {
+
+    String getNomeEstado();
 }
